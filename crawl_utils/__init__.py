@@ -1,1 +1,0 @@
-from crawl_utils.extract_attachment import extract_attachment
