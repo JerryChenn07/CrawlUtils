@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 # https://github.com/kingname/GeneralNewsExtractor/blob/master/setup.py
 setup(
     name='crawl_utils',
-    version='0.0.2',
+    version='0.0.3',
     description='Commonly Used Crawl Utils',
     author='cjr',
     author_email='cjr0707@qq.com',

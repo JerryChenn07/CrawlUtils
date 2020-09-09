@@ -24,8 +24,11 @@ def extract_attachment(response):
 
         attachment_name = attachment_format_patten.sub('', origin_file_name)
         part_attachment_url = s.xpath('./@href').get()
-        # file_info = {'attachment_name': attachment_name, 'attachment_url': response.urljoin(part_attachment_url)}
-        file_info = {'attachment_name': attachment_name, 'attachment_url': part_attachment_url}
+        try:
+            file_info = {'attachment_name': attachment_name, 'attachment_url': response.urljoin(part_attachment_url)}
+        except AttributeError:
+            logger.debug('处于附件提取debug模式')
+            file_info = {'attachment_name': attachment_name, 'attachment_url': part_attachment_url}
         logger.debug(f"获取附件一个：{file_info}")
         attachment_list.append(file_info)
 
