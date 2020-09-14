@@ -1,0 +1,687 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="ContentSource" content="新疆政府网">
+
+<meta name="SiteName" content="新疆维吾尔自治区人民政府网">
+<meta name="SiteDomain" content="">
+<meta name="SiteIDCode" content="6500000034">
+<meta name="ColumnName" content="法规文件">
+<meta name="ColumnDescription" content="法规文件">
+<meta name="ColumnKeywords" content="法规文件">
+<meta name="ColumnType" content="法规文件">
+<meta name="ArticleTitle" content="关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知">
+<meta name="PubDate" content="2020-09-14 12:23:54">
+
+<meta name="others" content="页面生成时间 2020-09-14 12:23:54">
+<meta name="template,templategroup,version" content="7eeaecd0f41b468dbac1df1450e25260,default,2.9">
+<title>关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知_法规文件_新疆维吾尔自治区人民政府网</title>
+<meta name="website" websiteid="2a4092ca8c2a4255bfec9f13f114aba6" websitecode="xinjiang" websitename="新疆维吾尔自治区人民政府网">
+<meta name="column" channelid="bd413cadbe1f44858495b967d4e9d7fd" channelcode="fgwjx" channelname="法规文件">
+<meta name="manuscript" manuscriptid="d9bafda1ba5541db8d8d499934c20208">
+<script type="text/javascript" charset="utf-8" id="phpstat_async_js_id_10000001" async="" src="//220.171.42.239:7005/phpstat/count/10000001/10000001.js"></script><script id="headjs" src="/xinjiang/xhtml/js/head.js" type="text/javascript" charset="utf-8"></script><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="keywords" content=""><meta name="description" content=""><link href="/xinjiang/xhtml/images/icon/favicon.png" rel="shortcut icon" type="image/x-icon"><link href="/xinjiang/xhtml/css/reset.css" rel="stylesheet" type="text/css"><link href="/xinjiang/xhtml/css/custom.css" rel="stylesheet" type="text/css"><link href="/xinjiang/xhtml/css/common.css" rel="stylesheet" type="text/css"><link href="/xinjiang/xhtml/css/iconfont.css" rel="stylesheet" type="text/css"><script src="/xinjiang/xhtml/js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script><script src="/xinjiang/xhtml/js/jquery-migrate-1.2.1.js" type="text/javascript" charset="utf-8"></script><script src="https://zwfw.xinjiang.gov.cn/xjssojkfw/rest/outsidesso/getUserBasicInfo?isScript=true" type="text/javascript"></script><script src="/xinjiang/xhtml/js/common.js" type="text/javascript" charset="utf-8"></script><script src="/xinjiang/xhtml/js/jquery.SuperSlide.2.1.1.js" type="text/javascript" charset="utf-8"></script><script src="/xinjiang/xhtml/js/less-3.0.0.min.js" type="text/javascript" charset="utf-8"></script><script src="/xinjiang/xhtml/js/jquery.base64.js" type="text/javascript" charset="utf-8"></script><script src="/xinjiang/xhtml/js/aes.js" type="text/javascript" charset="utf-8"></script><script src="/xinjiang/xhtml/js/yhzx.js" type="text/javascript" charset="utf-8"></script>
+<script src="/xinjiang/xhtml/js/scroll.js"></script>
+<script src="http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=444463"></script><link rel="stylesheet" href="http://bdimg.share.baidu.com/static/api/css/share_style2_16.css"></head>
+
+<body>
+<!--共同页眉--start-->
+<div class="cookieCont" style="display: block;">
+    <div class="cook_box">
+        <div class="cook_left fl">
+          <h3>Cookies使用策略</h3>  
+    <p>我们的网站使用cookies以改进我们的网站和改善用户体验。</p> 
+    <p>如您继续浏览本网站而未更改浏览器cookie设置，视为同意我们的cookies使用策略。</p> 
+    <a href="/xinjiang/cookie/tydp.shtml" target="_blank">Cookie 政策</a>
+        </div>
+        <div class="cook_right fr">
+            <a href="javascript:;" title="0" class="cook_but">不同意</a>
+            <a href="javascript:;" title="1" class="cook_but">同意</a>
+        </div>
+    </div>
+</div>
+<div class="header">
+<div class="header_top">
+<div class="header_box">
+    <div class="h_top_left fl">
+        <a href="http://www.gov.cn/" target="_blank">中国政府网</a>&nbsp;&nbsp;|&nbsp;
+        <a href="http://www.xjpcsc.gov.cn/" target="_blank">自治区人大</a>&nbsp;&nbsp;|&nbsp;
+        <a href="http://www.xjzx.gov.cn/" target="_blank">自治区政协</a> 
+    </div>
+    <div class="h_top_right fr"> 
+        <ul class="clearfix">
+
+            <li>
+                <a href="http://uygur.xinjiang.gov.cn/" target="_blank" title="维吾尔文版网站">
+                    <img src="/xinjiang/xhtml/images/public/wy.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="http://en.xinjiang.gov.cn/" target="_blank" title="英文版网站">
+                    <!--<span class="iconfont icon-stba-en"></span>-->                              
+                English
+                </a>
+            </li>
+      <li>
+                    <a href="javascript:void(0);" id="StranLinkJ" title="點擊以繁體中文方式瀏覽">
+                        繁<span class="iconfont icon-fanti1"></span>
+                    </a>
+                </li>
+                        <li>
+                            <a href="/assistants/xinjiang_wza.shtml" target="_blank" title="无障碍模式">
+                                <span class="iconfont icon-stba-wza"></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/xinjiang/gwapp/jumpxq.shtml" target="_blank" title="app下载">
+                                <span class="iconfont icon-stba-iphone"></span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/xinjiang/zwwx/jumpxq.shtml" target="_blank" title="政务微信">
+                                <span class="iconfont icon-stba-wcat"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://weibo.com/2445472797/profile?s=6cm7D0&amp;is_hot=1" target="_blank" title="政务微博">
+                                <span class="iconfont icon-xinlang1"></span>
+                            </a>
+                        </li>
+                            <li>
+                            <a href="/xinjiang/znwd/znwd.shtml" target="_blank" title="智能机器人">
+                                <span class="iconfont icon-stba-jqr"></span>
+                            </a>
+                        </li>
+        </ul>
+    </div>
+</div>
+</div>
+<div class="header_box clearfix">
+<div class="header_mid clearfix">
+    <div class="h_logo fl">
+            <img src="/xinjiang/xhtml/images/public/logo02.png" alt="" srcset="">
+        </div>
+         <div class="h_search fr">
+              <form action="" method="get" target="_blank" name="searchForm" onkeydown="if(event.keyCode==13)return false;">
+            <div class="h_rc">
+                <span class="seachcolumn">全平台</span><i class="iconfont icon-sanjiaoxing"></i>
+                <ul class="rc_list"><li onclick="zdjh(&quot;&quot;,&quot;全平台&quot;)">全平台</li><li></li><li onclick="zdjh(&quot;6500000034&quot;,&quot;新疆政府网&quot;)">新疆政府网</li><li onclick="zdjh(&quot;6500000038&quot;,&quot;发展和改革委员会&quot;)">发展和改革委员会</li><li onclick="zdjh(&quot;6500000031&quot;,&quot;教育厅&quot;)">教育厅</li><li onclick="zdjh(&quot;6500000037&quot;,&quot;科学技术厅&quot;)">科学技术厅</li><li onclick="zdjh(&quot;6500000059&quot;,&quot;工业和信息化厅&quot;)">工业和信息化厅</li><li onclick="zdjh(&quot;6500000023&quot;,&quot;民族事务委员会（宗教事务局）&quot;)">民族事务委员会（宗教事务局）</li><li onclick="zdjh(&quot;6500000019&quot;,&quot;公安厅&quot;)">公安厅</li><li onclick="zdjh(&quot;6500000021&quot;,&quot;民政厅&quot;)">民政厅</li><li onclick="zdjh(&quot;6500000060&quot;,&quot;司法厅&quot;)">司法厅</li><li onclick="zdjh(&quot;6500000013&quot;,&quot;财政厅&quot;)">财政厅</li><li onclick="zdjh(&quot;6500000048&quot;,&quot;人力资源和社会保障厅&quot;)">人力资源和社会保障厅</li><li onclick="zdjh(&quot;6500000049&quot;,&quot;自然资源厅&quot;)">自然资源厅</li><li onclick="zdjh(&quot;6500000020&quot;,&quot;住房和城乡建设厅&quot;)">住房和城乡建设厅</li><li onclick="zdjh(&quot;6500000003&quot;,&quot;生态环境厅&quot;)">生态环境厅</li><li onclick="zdjh(&quot;6500000043&quot;,&quot;交通运输厅&quot;)">交通运输厅</li><li onclick="zdjh(&quot;6500000002&quot;,&quot;水利厅&quot;)">水利厅</li><li onclick="zdjh(&quot;6500000026&quot;,&quot;农业农村厅&quot;)">农业农村厅</li><li onclick="zdjh(&quot;6500000012&quot;,&quot;商务厅&quot;)">商务厅</li><li onclick="zdjh(&quot;6500000069&quot;,&quot;文化和旅游厅&quot;)">文化和旅游厅</li><li onclick="zdjh(&quot;6500000088&quot;,&quot;卫生健康委员会&quot;)">卫生健康委员会</li><li onclick="zdjh(&quot;N000012844&quot;,&quot;退役军人事务厅&quot;)">退役军人事务厅</li><li onclick="zdjh(&quot;6500000041&quot;,&quot;应急管理厅&quot;)">应急管理厅</li><li onclick="zdjh(&quot;6500000024&quot;,&quot;外事办公室&quot;)">外事办公室</li><li onclick="zdjh(&quot;6500000016&quot;,&quot;审计厅&quot;)">审计厅</li><li onclick="zdjh(&quot;6500000056&quot;,&quot;人民政府国有资产监督管理委员会&quot;)">人民政府国有资产监督管理委员会</li><li onclick="zdjh(&quot;65BM060002&quot;,&quot;市场监督管理局&quot;)">市场监督管理局</li><li onclick="zdjh(&quot;6500000066&quot;,&quot;广播电视局&quot;)">广播电视局</li><li onclick="zdjh(&quot;6500000007&quot;,&quot;统计局&quot;)">统计局</li><li onclick="zdjh(&quot;6500000018&quot;,&quot;机关事务管理局&quot;)">机关事务管理局</li><li onclick="zdjh(&quot;N000012845&quot;,&quot;地方金融监督管理局&quot;)">地方金融监督管理局</li><li onclick="zdjh(&quot;6500000006&quot;,&quot;信访局&quot;)">信访局</li><li onclick="zdjh(&quot;6500000052&quot;,&quot;林业和草原局&quot;)">林业和草原局</li><li onclick="zdjh(&quot;6500000087&quot;,&quot;扶贫开发办&quot;)">扶贫开发办</li><li onclick="zdjh(&quot;6500000014&quot;,&quot;人民防空办公室&quot;)">人民防空办公室</li><li onclick="zdjh(&quot;6500000015&quot;,&quot;粮食物资储备局&quot;)">粮食物资储备局</li><li onclick="zdjh(&quot;6500000083&quot;,&quot;戒毒管理局&quot;)">戒毒管理局</li><li onclick="zdjh(&quot;6500000025&quot;,&quot;监狱管理局网&quot;)">监狱管理局网</li><li onclick="zdjh(&quot;6500000032&quot;,&quot;畜牧兽医局&quot;)">畜牧兽医局</li><li onclick="zdjh(&quot;6500000089&quot;,&quot;药品监督管理局&quot;)">药品监督管理局</li></ul>
+            </div>
+            <input class="fl h_input" type="text" name="temp" value="搜你想要的 -- 服务、指南、问题  一键找到！" onkeydown="showss();">
+            <div class="h_but fr" onclick="checkForm();"> <span class="iconfont icon--search"></span></div>
+           </form>
+        </div>
+</div>
+</div>
+<div class="header_nav clearfix">
+    <div class="nav_box clearfix">
+    <ul>
+        <li class=""><a href="/xinjiang/index.shtml" title="首页">引页</a></li>
+        <li><a href="/xinjiang/ywdt/xw.shtml" title="政务动态">政务动态</a></li>
+        <li class="active"><a href="/xinjiang/zwgk/zw.shtml" title="信息公开">信息公开</a></li>
+        <li><a href="/xinjiang/zwfw/fw.shtml" title="政务服务">政务服务</a></li>
+        <li><a href="/xinjiang/zmhd/hd.shtml" title="政民互动">政民互动</a></li>
+        <li><a href="/xinjiang/tzly/tz.shtml" title="投资新疆">投资新疆</a></li>
+        <li><a href="/xinjiang/dmxj/dmxj.shtml" title="畅游天山">
+            畅游天山
+          </a></li>
+        </ul>
+        <div class="h_login fr">
+            <a href="/account-center/a" target="_blank" class="dl"><span class="iconfont icon-denglu-copy"></span> 登录</a>
+            <a href="/account-center/a/sys/sysMember/sysRegister" target="_blank"><span class="iconfont icon-bianjibi"></span> 注册</a>
+        </div>
+    </div>   
+</div>
+</div>
+<script>
+function checkForm(){
+var temp = searchForm.temp.value;
+if(temp==null || temp==""|| temp=='搜你想要的 -- 服务、指南、问题  一键找到！'){
+alert("请输入搜索条件");
+}
+else{
+ goSearch(temp);
+}
+}
+function showss () {
+var e=window.event||arguments.callee.caller.arguments[0];
+if(e.keyCode==13){
+checkForm();
+
+    }
+}
+</script>
+<!--共同页眉--end-->
+<div class="container theme-ct">
+	<div class="theme-dqwz">
+		当前位置：
+<a href="/xinjiang/index.shtml" target="_parent">首页</a>&nbsp;/&nbsp;<a href="/xinjiang/zwgk/zw.shtml" target="_parent">信息公开</a>&nbsp;/&nbsp;<a href="/xinjiang/qwfb/jump.shtml" target="_parent">权威发布</a>&nbsp;/&nbsp;<a href="/xinjiang/fgwjx/common_listfgwj.shtml" target="_parent"><span>法规文件</span></a>
+
+	</div>
+	<div class="ysjbox">
+		<div class="ysj">
+			<p class="yyyy">2020</p>
+			<p class="mmdd">09/11</p>
+			<p class="hhmm">12:13</p>
+			<p class="ly">来源：</p>
+			<p class="source">新疆政府网</p>
+			<p class="fsize">【字体：<span class="large">大</span><span class="normal">中</span><span class="small">小</span>】</p>
+			<p class="fwl">访问量：<span id="fwl">54</span>次</p>
+		</div>
+		<div class="bqlist">
+			<div class="bq">标签</div>
+			<ul class="clearfix" id="bq_list">
+			<!--	<li><a href="javascript:;">工作</a></li>-->
+		
+			</ul>
+		</div>
+		<div class="share">
+			<div class="bdsharebuttonbox bdshare-button-style2-16" data-bd-bind="1600072757257">
+				<p><a href="#" class="bds_copy" data-cmd="copy"></a>分享</p>
+				<p><a href="#" class="bds_tsina" data-cmd="tsina"></a>微博</p>
+				<p><a href="#" class="bds_weixin" data-cmd="weixin"></a>微信</p>
+				<a href="#" class="bds_more" data-cmd="more"></a>
+			</div>
+			<div id="div-div">
+				<p>扫一扫在手机打开当前页</p>
+				
+			<canvas id="Canvas" width="132" height="132"></canvas></div>
+		</div>
+	</div>
+	<div class="detail" style="position: relative;">
+		<div class="sy-imgbox" style="display: none;"></div><h1>关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知</h1><ul class="hide clearfix"><li><span>新疆维吾尔自治区人民政府</span></li><li><span>发布时间：2020年09月11日</span></li><li><span>来源：新疆政府网</span></li></ul>
+		
+		<div id="NewsContent">
+		<div class="ewebeditor_doc" style="width:100%;height:; overflow:auto;background-color:#A0A0A3;border:1px solid #D4D0C8;text-align:center;"><img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/0251672f04d748869e06727d256a3528.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/c0d5d7e2fa45494faa19c795347e5cdd.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/00be4a2e179d44ea950e19a9206d8370.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/1ae8f52f72884e6d9e078e32b338c385.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/e621ff6c483f4741ab6a81b0a15d5cf7.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/cfebb613452f4abd8d56f7cd9782ec40.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/93a2e426a169450e8e591ce261a6fad9.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/b094d46651ed498080d674cf3944887f.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/b1bccb340d7e4de3b7f060c4450e73d3.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/d6c5547510364c05ad6d8cc7fb960315.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/499df7c8d18747e7afc6d7e41f434e8e.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/1ef00f05f8f4419997b0a49453f8a09a.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/a0c7a329d4d14599ab0720b7abd47ba3.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/4de77ec2ccba485da973cc1e9f6af492.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/81489bc91a69490cb6cb5f84797ec58a.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/4c31dc9737a042cbb351f74245d8a595.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/440fbb1e992d450b9036a123bb50ad5b.png" border="0"><br>
+<img style="border-width:1px 2px 2px 1px;border-color:#00000;margin:5px;" src="d9bafda1ba5541db8d8d499934c20208/images/3c4c7eac654c4e42aefb3e9ee2788027.png" border="0"><br>
+</div>
+		</div>
+
+		<div class="zrbjbox" style="display: block;">
+            <h3>相关链接&gt;&gt; </h3>
+
+			<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:10px;" class="xgtable">
+                 <tbody>
+			<tr>  <td height="30" align="left" valign="bottom"><a href="/xinjiang/xjyw/202007/79ea8fe5813f42319b4ce41e93894a68.shtml" target="_blank" title="自治区召开会议：部署自然灾害综合风险普查等工作">自治区召开会议：部署自然灾害综合风险普查等工作</a></td></tr>
+      
+				  
+
+				  
+				</tbody></table>
+		 <p class="zrbj">作者：</p>
+		</div>
+		      				      <!--附件-->
+					  <div style="" class="ycdfj">
+   <h3>相关附件&gt;&gt; </h3>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin-top:10px;" class="xgtable">
+                                  <tbody>
+<tr>
+                <td height="30" align="left" valign="bottom"><a href="d9bafda1ba5541db8d8d499934c20208/files/f9e722a883fa4192b177e6f0cd57b3c0.txt" target="_blank" title="关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知.txt">关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知.txt</a>
+</td>
+              </tr>                              
+                               </tbody></table>
+				  </div>
+		<div class="dygnbox">
+			<p class="dygn"><span id="btnPrint">【打印本文】</span><span id="close">【关闭】</span></p>
+		</div>
+
+		<div class="dzbox">
+			<div class="dz">
+				<span class="iconfont icon-dianzancopy"></span>
+				<p>0</p>
+			</div>
+			<div class="sc">
+				<span class="iconfont icon-shoucang"></span>
+				<p>收藏</p>
+			</div>
+		</div>
+
+	</div>	
+</div>
+<!--共同页脚--start-->
+<div class="footer">
+    <div class="footer_yqlj wid1500">
+        <div class="common_title">
+            <h5>网上新疆</h5>
+         </div>
+            <div class="yqlj_tit">
+                <h2>政府组成部门</h2>	
+                <h2>政府直属机构</h2>
+                <h2>政府其他机构</h2>	
+                <h2>各地州市</h2>	
+                <h2>各县市区</h2>	
+                <h2>新疆生产建设兵团</h2>	
+                <h2>新闻媒体</h2>	
+                <h2>大专院校网站</h2>	
+            </div>
+       <div class="yqljBox">
+        <div class="yqlj_box ml0">
+            <dl>
+       
+
+                             <dd><a href="http://xjdrc.xinjiang.gov.cn" target="_blank">发展和改革委员会</a></dd>
+<dd><a href="http://jyt.xinjiang.gov.cn/" target="_blank">教育厅</a></dd>
+<dd><a href="http://kjt.xinjiang.gov.cn/" target="_blank">科技厅</a></dd>
+<dd><a href="http://gxt.xinjiang.gov.cn/" target="_blank">工业和信息化厅</a></dd>
+<dd><a href="http://mwzjswj.xinjiang.gov.cn/" target="_blank">民族事务委员会</a></dd>
+<dd><a href="http://gat.xinjiang.gov.cn/" target="_blank">公安厅</a></dd>
+<dd><a href="http://mzt.xinjiang.gov.cn/" target="_blank">民政厅</a></dd>
+<dd><a href="http://sft.xinjiang.gov.cn/" target="_blank">司法厅</a></dd>
+<dd><a href="http://czt.xinjiang.gov.cn/" target="_blank">财政厅</a></dd>
+<dd><a href="http://rst.xinjiang.gov.cn/" target="_blank">人力资源和社会保障厅</a></dd>
+<dd><a href="http://zrzyt.xinjiang.gov.cn/" target="_blank">自然资源厅</a></dd>
+<dd><a href="http://sthjt.xinjiang.gov.cn/" target="_blank">生态环境厅</a></dd>
+<dd><a href="http://zjt.xinjiang.gov.cn/" target="_blank">住房和城乡建设厅</a></dd>
+<dd><a href="http://jtyst.xinjiang.gov.cn/" target="_blank">交通厅</a></dd>
+<dd><a href="http://slt.xinjiang.gov.cn/" target="_blank">水利厅</a></dd>
+<dd><a href="http://nynct.xinjiang.gov.cn/" target="_blank">农业农村厅</a></dd>
+<dd><a href="http://swt.xinjiang.gov.cn/" target="_blank">商务厅</a></dd>
+<dd><a href="http://wlt.xinjiang.gov.cn/" target="_blank">文化和旅游厅</a></dd>
+<dd><a href="http://wjw.xinjiang.gov.cn/" target="_blank">卫生健康委员会</a></dd>
+<dd><a href="http://tyjr.xinjiang.gov.cn/" target="_blank">退役军人事务厅</a></dd>
+<dd><a href="http://yjgl.xinjiang.gov.cn/" target="_blank">应急管理厅</a></dd>
+<dd><a href="http://sjt.xinjiang.gov.cn/" target="_blank">审计厅</a></dd>
+<dd><a href="http://fao.xinjiang.gov.cn/" target="_blank">外事办公室</a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+              
+
+                    <!--li class="zoya1"><a target="_blank" href="#">研究室</a></li-->
+<dd class="zoya1"><a target="_blank" href="http://gzw.xinjiang.gov.cn/">国有资产监督管理委员会</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://scjgj.xinjiang.gov.cn/">市场监督管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://gdj.xinjiang.gov.cn/">广播电视局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://tyj.xinjiang.gov.cn/">体育局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://tjj.xinjiang.gov.cn/">统计局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://ylbzj.xinjiang.gov.cn">医疗保障局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://sgj.xinjiang.gov.cn/" se_prerender_url="loading">机关事务管理局 </a></dd>
+<dd class="zoya1"><a target="_blank" href="http://jrjgj.xinjiang.gov.cn/">地方金融监督管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xfj.xinjiang.gov.cn/">信访局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://lcj.xinjiang.gov.cn/">林业和草原局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://fpb.xinjiang.gov.cn/">扶贫开发办公室</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://rfb.xinjiang.gov.cn/">人民防空办公室 </a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+
+                             <dd class="zoya1"><a target="_blank" href="http://lswz.xinjiang.gov.cn/">粮食和物资储备局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://jdglj.xinjiang.gov.cn/">戒毒管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://jyglj.xinjiang.gov.cn">监狱管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xmsyj.xinjiang.gov.cn/">畜牧兽医局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://mpa.xinjiang.gov.cn">药品监督管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://www.xjcms.chinasafety.gov.cn/">新疆煤矿安全监察局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://www.eq-xj.gov.cn" se_prerender_url="complete">新疆维吾尔自治区地震局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xj.spb.gov.cn/">新疆维吾尔自治区邮政局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://urumqi.customs.gov.cn">乌鲁木齐海关</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://www.xj-n-tax.gov.cn/">新疆维吾尔自治区税务局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xj.caac.gov.cn/">民航新疆管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xjca.miit.gov.cn/">新疆维吾尔自治区通信管理局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://www.csrc.gov.cn/pub/newsite/">中国证券监督管理委员会新疆监管局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://wulumuqi.pbc.gov.cn/">中国人民银行乌鲁木齐中心支行</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://www.cbrc.gov.cn/index.html">中国银行业监督管理委员会新疆监管局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xj.mof.gov.cn">财政部驻新疆专员办</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://www.circ.gov.cn/web/site37/tab2144/">中国保险监督管理委员会新疆监管局</a></dd>
+<dd class="zoya1"><a target="_blank" href="http://xj.cma.gov.cn/">新疆维吾尔自治区气象局</a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+
+                             <dd><a target="_blank" href="http://www.urumqi.gov.cn">乌鲁木齐市</a></dd>
+<dd><a target="_blank" href="http://www.xjyl.gov.cn">伊犁哈萨克自治州</a></dd>
+<dd><a target="_blank" href="http://www.xjtc.gov.cn">塔城地区</a></dd>
+<dd><a target="_blank" href="http://www.xjalt.gov.cn">阿勒泰地区</a></dd>
+<dd><a target="_blank" href="http://www.xjboz.gov.cn">博尔塔拉蒙古自治州</a></dd>
+<dd><a target="_blank" href="http://www.cj.gov.cn">昌吉回族自治州</a></dd>
+<dd><a target="_blank" href="http://www.tlf.gov.cn">吐鲁番市</a></dd>
+<dd><a target="_blank" href="http://www.hami.gov.cn">哈密市</a></dd>
+<dd><a target="_blank" href="http://www.xjbz.gov.cn">巴音郭楞蒙古自治州</a></dd>
+<dd><a target="_blank" href="http://www.aks.gov.cn">阿克苏地区</a></dd>
+<dd><a target="_blank" href="http://www.xjkz.gov.cn">克孜勒苏柯尔克孜自治州</a></dd>
+<dd><a target="_blank" href="http://www.kashi.gov.cn">喀什地区</a></dd>
+<dd><a target="_blank" href="http://www.xjht.gov.cn">和田地区</a></dd>
+<dd><a target="_blank" href="http://www.klmy.gov.cn">克拉玛依市</a></dd>
+<dd><a target="_blank" href="http://www.shz.gov.cn/"> 石河子市</a></dd>
+<dd><a target="_blank" href="http://www.ale.gov.cn">阿拉尔市</a></dd>
+<dd><a target="_blank" href="http://www.xjbtnss.gov.cn">图木舒克市</a></dd>
+<dd><a target="_blank" href="http://www.wjq.gov.cn">五家渠市</a></dd>
+<dd><a target="_blank" href="http://www.bts.gov.cn/">北屯市</a></dd>
+<dd><a href="http://www.tmg.gov.cn/" target="_blank">铁门关市</a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+
+                    <!--
+<dd class="zoya"><b><a target="_blank" href="http://www.urumqi.gov.cn/">乌鲁木齐市</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjtsq.gov.cn/">乌鲁木齐天山区</a></dd>
+<dd><a target="_blank" href="http://www.sayibak.gov.cn/">乌鲁木齐沙依巴克区</a></dd>
+<dd><a target="_blank" href="http://www.xjsmgq.gov.cn/">乌鲁木齐水磨沟区</a></dd>
+<dd><a target="_blank" href="http://www.uhdz.gov.cn/">乌鲁木齐新市区</a></dd>
+<dd><a target="_blank" href="http://www.xjmd.gov.cn/">乌鲁木齐米东区</a></dd>
+<dd><a target="_blank" href="http://www.dabancheng.gov.cn/">乌鲁木齐达坂城区</a></dd>
+<dd><a target="_blank" href="http://www.wlmqx.gov.cn/">乌鲁木齐乌鲁木齐县</a></dd>
+<dd><a target="_blank" href="http://www.uetd.gov.cn/">乌鲁木齐经济技术 开发区</a></dd>
+<dd><a target="_blank" href="http://www.uhdz.gov.cn/zjgx.htm">乌鲁木齐高新技术开发区</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjyl.gov.cn/">伊犁哈萨克自治州</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjkuitun.gov.cn">伊犁州奎屯市</a></dd>
+<dd><a target="_blank" href="http://www.yining.gov.cn">伊犁州伊宁市</a></dd>
+<dd><a target="_blank" href="http://www.xjyn.gov.cn/">伊犁州伊宁县</a></dd>
+<dd><a target="_blank" href="http://www.xjnlk.gov.cn/">伊犁州尼勒克县</a></dd>
+<dd><a target="_blank" href="http://www.xinyuan.gov.cn">伊犁州新源县</a></dd>
+<!--
+<dd><a target="_blank" href="http://www.xjgl.gov.cn/">伊犁州巩留县 </a></dd>
+-->
+<dd><a target="_blank" href="http://www.114huoche8.com/zhengfu/YiLi-GongLiuXian">伊犁州巩留县</a></dd>
+<dd><a target="_blank" href="http://www.zgtks.gov.cn/">伊犁州特克斯县</a></dd>
+<dd><a target="_blank" href="http://www.zhaosu.gov.cn">伊犁州昭苏县</a></dd>
+<dd><a target="_blank" href="http://www.xjcbcr.gov.cn/">伊犁州察布查尔县</a></dd>
+<dd><a target="_blank" href="http://www.xjhc.gov.cn/">伊犁州霍城县</a></dd>
+<dd><a target="_blank" href="http://www.xjhegs.gov.cn/">伊犁州霍尔果斯</a></dd>
+<dd><a target="_blank" href="http://www.nalati.com/">伊犁州那拉提</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjalt.gov.cn/">阿勒泰地区 </a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.alt.gov.cn/">阿勒泰地区阿勒泰市</a></dd>
+<dd><a target="_blank" href="http://www.brj.gov.cn/">阿勒泰地区布尔津县</a></dd>
+<dd><a target="_blank" href="http://www.hbh.gov.cn/">阿勒泰地区哈巴河县</a></dd>
+<dd><a target="_blank" href="http://www.jmn.gov.cn/">阿勒泰地区吉木乃县</a></dd>
+<dd><a target="_blank" href="http://www.xjqh.gov.cn/">阿勒泰地区青河县</a></dd>
+<dd><a target="_blank" href="http://www.xjfy.gov.cn">阿勒泰地区富蕴县</a></dd>
+<dd><a target="_blank" href="http://www.xjfhx.gov.cn/">阿勒泰地区福海县</a></dd>
+<dd><a target="_blank" href="http://www.kns.gov.cn/">阿勒泰地区喀纳斯管委会</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjtc.gov.cn/">塔城地区</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjtcsh.gov.cn/">塔城地区塔城市</a></dd>
+<dd><a target="_blank" href="http://www.xjhbk.gov.cn">塔城地区和布克赛尔县</a></dd>
+<dd><a target="_blank" href="http://www.xjem.gov.cn/">塔城地区额敏县</a></dd>
+<dd><a target="_blank" href="http://www.xjws.gov.cn">塔城地区乌苏市</a></dd>
+<dd><a target="_blank" href="http://www.xjym.gov.cn/">塔城地区裕民县</a></dd>
+<dd><a target="_blank" href="http://www.xjtl.gov.cn/">塔城地区托里县</a></dd>
+<dd><a target="_blank" href="http://www.xjswx.gov.cn">塔城地区沙湾县</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjboz.gov.cn/" se_prerender_url="complete">博尔塔拉蒙古自治州</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjbl.gov.cn/">博州博乐市</a></dd>
+<dd><a target="_blank" href="http://www.xjjh.gov.cn/">博州精河县</a></dd>
+<dd><a target="_blank" href="http://www.xjwq.gov.cn">博州温泉县</a></dd>
+<dd><a target="_blank" href="http://www.alsk.gov.cn/">博州阿拉山口市</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.cj.gov.cn/">昌吉回族自治州</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.cjs.gov.cn/">昌吉州昌吉市</a></dd>
+<dd><a target="_blank" href="http://www.fk.gov.cn/">昌吉州阜康市</a></dd>
+<dd><a target="_blank" href="http://www.htb.gov.cn/">昌吉州呼图壁县</a></dd>
+<dd><a target="_blank" href="http://www.jmser.gov.cn/">昌吉州吉木萨尔县</a></dd>
+<dd><a target="_blank" href="http://www.mlx.gov.cn/">昌吉州木垒哈萨克自治县</a></dd>
+<dd><a target="_blank" href="http://www.mns.gov.cn/">昌吉州玛纳斯县</a></dd>
+<dd><a target="_blank" href="http://www.xjqt.gov.cn">昌吉州奇台县</a></dd>
+<dd><a target="_blank" href="http://gxq.cj.cn/">昌吉州昌吉国家高新技术产业开发区</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.tlf.gov.cn/">吐鲁番市</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjss.gov.cn/xjssx/index.htm">吐鲁番市鄯善县</a></dd>
+<dd><a target="_blank" href="http://www.tkx.gov.cn">吐鲁番市托克逊县</a></dd>
+<dd><a target="_blank" href="http://gcq.tlf.gov.cn/">吐鲁番市高昌区</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjbz.gov.cn/">巴音郭楞蒙古自治州</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjkel.gov.cn">巴州库尔勒市</a></dd>
+<dd><a target="_blank" href="http://www.xjyq.gov.cn/">巴州焉耆县</a></dd>
+<dd><a target="_blank" href="http://www.xjhj.gov.cn/">巴州和静县</a></dd>
+<dd><a target="_blank" href="http://www.xjbh.gov.cn/">巴州博湖县</a></dd>
+<dd><a target="_blank" href="http://www.hoxut.gov.cn/">巴州和硕县</a></dd>
+<dd><a target="_blank" href="http://www.xjlt.gov.cn/">巴州轮台县 </a></dd>
+<dd><a target="_blank" href="http://www.yuli.gov.cn/">巴州尉犁县</a></dd>
+<dd><a target="_blank" href="http://www.xjqmx.gov.cn/">巴州且末县</a></dd>
+<dd><a target="_blank" href="http://www.loulan.gov.cn/">巴州若羌县</a></dd>
+<dd><a target="_blank" href="http://www.kelkfq.gov.cn/">巴州库尔勒经济技术开发区</a></dd>
+<dd><a href="#" target="_blank">巴音郭楞州和静工业园区</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.hami.gov.cn/">哈密市</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjblk.gov.cn/">哈密市巴里坤县</a></dd>
+<dd><a target="_blank" href="http://www.xjyiwu.gov.cn/">哈密市伊吾县</a></dd>
+<dd><a target="_blank" href="http://www.xjhm.gov.cn/">哈密市伊州区</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjht.gov.cn/">和田地区</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.hts.gov.cn/">和田地区和田市</a></dd>
+<dd><a target="_blank" href="http://www.myx.gov.cn/">和田地区墨玉县</a></dd>
+<dd><a target="_blank" href="http://www.ps.gov.cn/">和田地区皮山县</a></dd>
+<dd><a target="_blank" href="http://www.htx.gov.cn">和田地区和田县</a></dd>
+<dd><a target="_blank" href="http://www.xjlpx.gov.cn/">和田地区洛浦县</a></dd>
+<dd><a target="_blank" href="http://www.xjcl.gov.cn/">和田地区策勒县</a></dd>
+<dd><a target="_blank" href="http://www.xjyt.gov.cn">和田地区于田县</a></dd>
+<dd><a target="_blank" href="http://www.mfx.gov.cn/">和田地区民丰县</a></dd>
+<!--
+<dd class="zoya" i=""><b><a target="_blank" href="http://www.kashi.gov.cn/">喀什地区</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjks.gov.cn/">喀什地区喀什市</a></dd>
+<dd><a target="_blank" href="http://www.shule.gov.cn/">喀什地区疏勒县</a></dd>
+<dd><a target="_blank" href="http://www.xjsf.gov.cn/">喀什地区疏附县</a></dd>
+<dd><a target="_blank" href="http://www.mgt.gov.cn">喀什地区麦盖提县</a></dd>
+<dd><a target="_blank" href="http://shache.xinjiang.gov.cn">喀什地区莎车县</a></dd>
+<dd><a target="_blank" href="http://www.xjyc.gov.cn/">喀什地区叶城县</a></dd>
+<dd><a target="_blank" href="http://www.xjzp.gov.cn/">喀什地区泽普县</a></dd>
+<dd><a target="_blank" href="http://www.yjs.gov.cn/">喀什地区英吉沙县</a></dd>
+<dd><a target="_blank" href="http://www.bachu.gov.cn">喀什地区巴楚县</a></dd>
+<dd><a target="_blank" href="http://www.xjjsx.gov.cn/">喀什地区伽师县</a></dd>
+<dd><a target="_blank" href="http://www.yph.gov.cn/">喀什地区岳普湖县</a></dd>
+<!--
+<dd><a target="_blank" href="http://www.tashkurgan.cn/">喀什地区塔什库尔干县</a></dd>
+-->
+<dd><a target="_blank" href="javascript:;">喀什地区塔什库尔干县</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.aks.gov.cn/">阿克苏地区</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.akss.gov.cn/">阿克苏地区阿克苏市</a></dd>
+<dd><a target="_blank" href="http://www.xjbc.gov.cn/">阿克苏地区拜城县</a></dd>
+<dd><a target="_blank" href="http://www.xjkc.gov.cn/">阿克苏地区库车县</a></dd>
+<dd><a target="_blank" href="http://www.xjsy.gov.cn">阿克苏地区沙雅县</a></dd>
+<dd><a target="_blank" href="http://www.xjxinhe.gov.cn/">阿克苏地区新和县</a></dd>
+<dd><a target="_blank" href="http://www.awt.gov.cn">阿克苏地区阿瓦提县</a></dd>
+<dd><a target="_blank" href="https://www.ws.gov.cn/">阿克苏地区乌什县</a></dd>
+<dd><a target="_blank" href="http://www.wszf.gov.cn/">阿克苏地区温宿县</a></dd>
+<dd><a target="_blank" href="http://www.xjkpx.gov.cn">阿克苏地区柯坪县</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.xjkz.gov.cn/">克孜勒苏柯尔克孜自治州</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.xjats.gov.cn/">克州阿图什市 </a></dd>
+<dd><a target="_blank" href="http://www.xjakt.gov.cn">克州阿克陶县</a></dd>
+<dd><a target="_blank" href="http://www.xjahq.gov.cn">克州阿合奇县</a></dd>
+<dd><a target="_blank" href="http://www.xjwqx.gov.cn">克州乌恰县</a></dd>
+<!--
+<dd class="zoya"><b><a target="_blank" href="http://www.klmy.gov.cn/">克拉玛依市</a>：</b></dd>
+-->
+<dd><a target="_blank" href="http://www.klmyq.gov.cn/">克拉玛依市克拉玛依区</a></dd>
+<dd><a target="_blank" href="http://www.dsz.gov.cn/">克拉玛依市独山子区</a></dd>
+<dd><a target="_blank" href="http://www.bjtq.gov.cn">克拉玛依市白碱滩区</a></dd>
+<dd><a target="_blank" href="http://www.weh.gov.cn">克拉玛依市乌尔禾区</a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+
+                    <dd><a target="_blank" href="http://www.xjbt.gov.cn">新疆生产建设兵团</a></dd>
+<dd><a target="_blank" href="http://www.cocodala.gov.cn">第四师</a></dd>
+<dd><a target="_blank" href="http://www.shz.gov.cn">第八师石河子市</a></dd>
+<dd><a target="_blank" href="http://www.12s.gov.cn">第十二师</a></dd>
+<dd><a target="_blank" href="http://www.ale.gov.cn">第一师阿拉尔市</a></dd>
+<dd><a target="_blank" href="http://www.njs.gov.cn">第九师</a></dd>
+<dd><a target="_blank" href="http://www.btnsss.gov.cn">第十三师</a></dd>
+<dd><a target="_blank" href="http://www.tmg.gov.cn/approch.htm">第二师铁门关市</a></dd>
+<dd><a target="_blank" href="http://www.wjq.gov.cn">第六师五家渠市</a></dd>
+<dd><a target="_blank" href="http://www.bts.gov.cn">第十师北屯市</a></dd>
+<dd><a target="_blank" href="http://www.btdsss.gov.cn">第十四师</a></dd>
+<dd><a target="_blank" href="http://www.xjbtnss.gov.cn/">第三师图木舒克市</a></dd>
+<dd><a target="_blank" href="http://www.nqs.gov.cn">第七师</a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+
+                    <dd><a target="_blank" href="http://www.xj.xinhuanet.com">新华网新疆频道</a></dd>
+<dd><a target="_blank" href="http://www.xj.chinanews.com">新疆新闻网</a></dd>
+<dd><a target="_blank" href="http://www.ts.cn/">天山网</a></dd>
+<dd><a target="_blank" href="http://www.xjdaily.com">新疆日报</a></dd>
+<dd><a target="_blank" href="http://www.xjtvs.com.cn">新疆电视台</a></dd>
+<dd><a target="_blank" href="http://www.xjbs.com.cn">新疆人民广播电台</a></dd>
+<dd><a target="_blank" href="http://www.iyaxin.com">亚心网</a></dd>
+<dd><a target="_blank" href="http://xj.ce.cn">中国经济网新疆频道</a></dd>
+<dd><a target="_blank" href="http://www.bingtuannet.com/">兵团网</a></dd>
+
+            </dl>
+        </div>
+        <div class="yqlj_box">
+            <dl>
+
+                    <dd><a target="_blank" href="http://www.xju.edu.cn">新疆大学</a></dd>
+<dd><a target="_blank" href="http://www.xjmu.edu.cn">新疆医科大学</a></dd>
+<dd><a target="_blank" href="http://www.xjau.edu.cn">新疆农业大学</a></dd>
+<dd><a target="_blank" href="http://www.xjnu.edu.cn">新疆师范大学</a></dd>
+<dd><a target="_blank" href="http://www.xjufe.edu.cn/">新疆财经大学</a></dd>
+<dd><a target="_blank" href="http://www.xjart.edu.cn">新疆艺术学院</a></dd>
+<dd><a target="_blank" href="http://www.xjie.edu.cn/">新疆工程学院</a></dd>
+<dd><a target="_blank" href="http://www.xjvu.edu.cn">新疆职业大学</a></dd>
+<dd><a target="_blank" href="https://www.taru.edu.cn/index2.htm">塔里木大学</a></dd>
+<dd><a target="_blank" href="http://www.shzu.edu.cn">石河子大学</a></dd>
+<dd><a target="_blank" href="http://www.cjc.edu.cn/">昌吉学院</a></dd>
+<dd><a target="_blank" href="http://www.xjtsxy.cn/">新疆天山职业技术学院</a></dd>
+<dd><a target="_blank" href="http://www.ylsy.edu.cn">伊犁师范大学</a></dd>
+<dd><a target="_blank" href="http://www.ksu.edu.cn/">喀什大学</a></dd>
+
+            </dl>
+        </div>
+    </div>   
+        <span class="iconfont icon-jiantou yqlj_but"></span>
+    </div>
+        <div class="footer_box">
+            <div class="footer_cont wid1500">
+                    <ul>
+                            <li>
+                                <a href="/xinjiang/wzsm/tydp.shtml">
+                                    <img src="/xinjiang/xhtml/images/public/footer_wzsm.png" alt="" srcset="">
+                                    <span>网站声明</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/xinjiang/lxwm/jumpxq.shtml">
+                                    <img src="/xinjiang/xhtml/images/public/footer_lxwm.png" alt="" srcset="">
+                                    <span>联系我们</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/xinjiang/wzdt/wzdt.shtml">
+                                    <img src="/xinjiang/xhtml/images/public/footer_wzdt.png" alt="" srcset="">
+                                    <span>网站地图（导引）</span>
+                                </a>
+                            </li>
+                        </ul>
+                <div class="f_c_left fl">
+                    <p>
+                        主办：新疆维吾尔自治区人民政府办公厅   承办：新疆维吾尔自治区政府电子政务办公室
+                    </p>
+                    <br>
+                    <p>
+                        <font>ICP备案号：新ICP备05001680号</font>政府网站标识码：6500000034<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=65010202000778" target="_blank"><img src="/xinjiang/xhtml/images/public/ga.png" alt="" srcset=""> 公安机关备案号:65010202000778</a>
+                    </p>
+                </div>
+                <div class="f_c_right fr">
+                   <a href="http://bszs.conac.cn/sitename?method=show&amp;id=21A846E334DB75DEE053012819ACDF92" target="_blank" class="icon_dzjg">
+                       <img src="/xinjiang/xhtml/images/public/footer_dzjg.png" alt="" srcset="">
+                   </a>
+
+           <a href="/xinjiang/ylb/202004/e8f9b29d18624616a39b039148889a55.shtml" target="_blank">
+                       &nbsp;<img src="/xinjiang/xhtml/images/icon/ipv6.png" alt="" srcset="" class="icon_ipv6">
+                   </a>
+
+        
+                          
+                   <a href="/xinjiang/zwwb/202006/914d844363134ce8906e7685d3a25b3d.shtml" target="_blank" class="footer_wb">
+                       <img src="/xinjiang/xhtml/images/public/footer_wb.png">
+                       <span>政务微博</span>
+                   </a>
+                   <a href="/xinjiang/zwwx/201912/c3e7d6a1017849dda770d4af2720155f.shtml" target="_blank">
+                       <img src="/xinjiang/xhtml/images/public/footer_gzh.png" alt="" srcset="">
+                       <span>政务公众号</span>
+                   </a>
+                </div>
+            </div>
+        </div>
+</div>
+ <div class="znwd">
+    <a href="/xinjiang/znwd/znwd.shtml" target="_blank">
+        <img src="/xinjiang/xhtml/images/public/yqwd.png" alt="" srcset="">
+    </a>
+   <div class="fkwd">疫情防控问答</div>
+    <p></p>
+</div>
+<script src="/xinjiang/xhtml/js/traditional.js"></script>
+<!--云分析-->
+<!-- PHPStat Start -->
+
+<script language="JavaScript" id="phpstat_js_id_10000001">
+
+var _trackDataType = 'web';
+
+var _trackData = _trackData || [];
+
+(function() {
+
+var phpstat_js = document.createElement('script'); phpstat_js.type = 'text/javascript'; 
+
+phpstat_js.charset = 'utf-8'; phpstat_js.id = 'phpstat_async_js_id_10000001'; phpstat_js.async = true;
+
+phpstat_js.src = '//220.171.42.239:7005/phpstat/count/10000001/10000001.js';
+
+var phpstat_cjs = document.getElementsByTagName('script')[0]; phpstat_cjs.parentNode.insertBefore(phpstat_js, phpstat_cjs);
+
+})();
+
+</script>
+
+<!--/PHPStat End -->
+<!--共同页脚--end-->
+
+<script src="/xinjiang/xhtml/js/listcont.js" type="text/javascript" charset="utf-8"></script>
+<script src="/xinjiang/xhtml/js/jquery.qrcode.js" type="text/javascript" charset="utf-8"></script>
+<script src="/xinjiang/xhtml/js/qrcode.js" type="text/javascript" charset="utf-8"></script>
+<script src="/xinjiang/xhtml/js/jquery-migrate-1.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/xinjiang/xhtml/js/jquery.jqprint-0.3.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- 百度分享 -->
+<script>window._bd_share_config={"common":{"bdText":"关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知","bdDesc":$('#NewsContent').text().substring(0,115),"bdMini":"2","bdStyle":"2","bdSize":"16"},"share":{},"selectShare":{"bdContainerClass":"content3","bdSelectMiniList":["weixin","qzone","tsina"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  
+ <script src="/xinjiang/xhtml/js/detail.js" type="text/javascript" charset="utf-8"></script>
+
+
+<iframe frameborder="0" id="bdSharePopup_selectshare1600072757232bg" class="bdselect_share_bg" style="display:none;"></iframe><div id="bdSharePopup_selectshare1600072757232box" style="display:none;" share-type="selectshare" class="bdselect_share_box" data-bd-bind="1600072757231"><div class="selectshare-mod-triangle"><div class="triangle-border"></div><div class="triangle-inset"></div></div><div class="bdselect_share_head"><span>分享到</span><a href="http://www.baidu.com/s?wd=关于印发自治区第一次全国自然灾害综合风险普查工作方案的通知&amp;tn=SE_hldp08010_vurs2xrp" class="bdselect_share_dialog_search" target="_blank"><i class="bdselect_share_dialog_search_i"></i><span class="bdselect_share_dialog_search_span">百度一下</span></a><a class="bdselect_share_dialog_close"></a></div><div class="bdselect_share_content"><ul class="bdselect_share_list bdshare-button-style2-16"><div class="bdselect_share_partners"></div><a href="#" class="bds_more" data-cmd="more"></a></ul></div></div></body></html>
