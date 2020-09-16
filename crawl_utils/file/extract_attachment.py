@@ -17,7 +17,7 @@ def extract_attachment(text, content_url, attachment_format_list=[]):
     :return: e.g. [{"attachment_name": "附件1", "attachment_url": "http://xxx.com/P020180202506411419197.pdf"}]
     :return:
     """
-    if isinstance(text, str):
+    if not isinstance(text, str):
         raise Exception('new version has removed response obj, please change codes or upgrade')
     attachment_list = []
     base_attachment_format = 'pdf|xls|doc|ppt|wps'
