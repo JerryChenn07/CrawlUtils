@@ -38,3 +38,4 @@ def extract_img(img_list, content_list, original_url):
             continue
         img_index = content_list.index(img)
         content_list[img_index] = pad_host_for_images(original_url, img)
+    return content_list
