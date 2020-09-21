@@ -33,6 +33,7 @@ def extract_img(img_list, content_list, original_url):
     :param original_url: 该文章的链接
     :return: 顺序的文章正文和完整图片链接
     """
+    img_list = [_.strip() for _ in img_list if _.strip()]
     for img in img_list:
         if img not in content_list:
             continue
