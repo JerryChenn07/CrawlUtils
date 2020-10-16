@@ -28,8 +28,8 @@ def extract_img(img_list, content_list, original_url):
     """
     content_list 中为包含文章正文和图片链接顺序的, 需要结合 img_list, 拼接为完整的 img 链接
 
-    :param img_list: 包含文章正文和图片链接顺序
-    :param content_list: 文章正文中的图片链接
+    :param img_list: 文章正文中的图片链接
+    :param content_list: 包含文章正文和图片链接顺序
     :param original_url: 该文章的链接
     :return: 顺序的文章正文和完整图片链接
     """
