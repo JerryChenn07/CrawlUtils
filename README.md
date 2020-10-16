@@ -12,6 +12,6 @@ pass
 
 ```
 python setup.py sdist bdist_wheel
-git tag -a v0.1.0 -m 'indruce this tag change'
+git tag -a v0.2.0 -m 'indruce this tag change'
 git push origin --tags
 ```
