@@ -37,7 +37,7 @@ class RandomUserAgentMiddleware(object):
         )
 
     def process_request(self, request, spider):
-        ua = random.choice(self.pc_ua) if self.select_pc_ua else ua = random.choice(self.phone_ua)
+        ua = random.choice(self.pc_ua) if self.select_pc_ua else random.choice(self.phone_ua)
         request.headers["User-Agent"] = ua
 
 
