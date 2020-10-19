@@ -19,7 +19,7 @@ REQUIRED = read_requirements('requirements.txt')
 
 setup(
     name='crawl_utils',
-    version='0.2.2',
+    version='0.2.3',
     description='Commonly Used Crawl Utils',
     author='cjr',
     author_email='cjr0707@qq.com',
