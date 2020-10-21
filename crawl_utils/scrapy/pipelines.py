@@ -82,9 +82,10 @@ class MongoPipeline(object):
             self.mydb = self.client[self.db]
             if self.scheduler != "scrapy_redis.scheduler.Scheduler":
                 self.mycollection = self.mydb[self.collection]
+                logger.info('数据库：{}，集合：{}'.format(self.db, self.collection))
             else:
                 self.mycollection = self.mydb[self.timer_tasks_collection]
-            logger.info('数据库：{}，集合：{}'.format(self.db, self.collection))
+                logger.info('数据库：{}，集合：{}'.format(self.db, self.timer_tasks_collection))
         else:
             logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
             logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
