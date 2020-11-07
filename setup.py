@@ -1,5 +1,6 @@
 from setuptools import setup, find_packages
 
+
 # 参考
 # https://mp.weixin.qq.com/s/SyMRQ6KUDTGLB9Px9oBPIg
 # https://github.com/Gerapy/GerapyAutoExtractor/blob/master/setup.py
@@ -19,7 +20,7 @@ REQUIRED = read_requirements('requirements.txt')
 
 setup(
     name='crawl_utils',
-    version='0.2.4',
+    version='0.2.5',
     description='Commonly Used Crawl Utils',
     author='cjr',
     author_email='cjr0707@qq.com',

@@ -13,7 +13,7 @@ def extract_attachment(text, content_url, attachment_format_list=[]):
 
     :param text: html
     :param content_url: text的原文url, 用于拼接附件链接
-    :param attachment_format_list: 除了基础的附件格式 pdf, xls, doc, ppt, wps，还可新增附件格式，如: txt
+    :param attachment_format_list: 除了基础的附件格式 pdf, xls, doc, ppt, wps，txt, ceb 还可新增附件格式，如: xxx
     :return: e.g. [{"attachment_name": "附件1", "attachment_url": "http://xxx.com/P020180202506411419197.pdf"}]
     :return:
     """
@@ -21,8 +21,8 @@ def extract_attachment(text, content_url, attachment_format_list=[]):
         raise Exception('new version has removed response obj, please change codes or upgrade')
     attachment_list = []
 
-    base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt']
-    attachment_format = '|'.join(set(base_attachment_format_list + attachment_format_list))  # 'pdf|xls|doc|ppt|wps|txt'
+    base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt', 'ceb']
+    attachment_format = '|'.join(set(base_attachment_format_list + attachment_format_list))  # 'pdf|xls|doc|ppt|wps...'
     attachment_format_patten = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
 
     get_node_a_list = re.findall('<a .*?</a>', text, re.DOTALL | re.IGNORECASE)
