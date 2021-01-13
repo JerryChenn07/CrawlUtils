@@ -26,7 +26,7 @@ def extract_attachment(text, content_url, attachment_format_list=[]):
     attachment_format_patten = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
 
     get_node_a_list = re.findall('<a .*?</a>', text, re.DOTALL | re.IGNORECASE)
-    suspect_attachment_list = Selector(''.join(get_node_a_list)).xpath('//a')
+    suspect_attachment_list = Selector(''.join(get_node_a_list).replace('!--', '')).xpath('//a')
     attachment_set = set()
     for s in suspect_attachment_list:
         if not s.xpath('./@href').re_first(attachment_format_patten):
