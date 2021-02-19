@@ -21,18 +21,19 @@ def extract_attachment(text, content_url, attachment_format_list=[]):
         raise Exception('new version has removed response obj, please change codes or upgrade')
     attachment_list = []
 
-    base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt', 'ceb']
+    base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt', 'ceb', 'rar', 'zip']
     attachment_format = '|'.join(set(base_attachment_format_list + attachment_format_list))  # 'pdf|xls|doc|ppt|wps...'
     attachment_format_patten = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
 
     get_node_a_list = re.findall('<a .*?</a>', text, re.DOTALL | re.IGNORECASE)
+    # 替换 <!--<a href="" target="_blank" >-->xxxx<!--</a>--></em> 中的 !--，防止后续代码被注释
     suspect_attachment_list = Selector(''.join(get_node_a_list).replace('!--', '')).xpath('//a')
     attachment_set = set()
     for s in suspect_attachment_list:
         if not s.xpath('./@href').re_first(attachment_format_patten):
             continue
         origin_file_name_from_text = s.xpath('string()').get('').strip()
-        origin_file_name_from_title = s.xpath('./@title').get('')
+        origin_file_name_from_title = s.xpath('./@title').get('') or s.xpath('./@textvalue').get('')
         if not origin_file_name_from_text and not origin_file_name_from_title:
             # continue # 存在一些附件名为空的情况
             logger.warning(f"Get a empty attachment name, origin node is ==={s.get()}===, content_url={content_url}")
