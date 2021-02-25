@@ -6,28 +6,34 @@ from parsel.selector import Selector
 
 logger = logging.getLogger(__name__)
 
+base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt', 'ceb', 'rar', 'zip']
 
-def extract_attachment(text, content_url, attachment_format_list=[]):
+
+def remove_noise_chars(text):
+    # 替换 <!--<a href="" target="_blank" >-->xxxx<!--</a>--></em> 中的 !--，防止后续代码被注释
+    return text.replace('!--', '').strip()
+
+
+def extract_attachment(html, content_url, attachment_format_list=[]):
     """
     用于提取 html 中的附件名字及链接
 
-    :param text: html
-    :param content_url: text的原文url, 用于拼接附件链接
+    :param html: html
+    :param content_url: html的原文url, 用于拼接附件链接
     :param attachment_format_list: 除了基础的附件格式 pdf, xls, doc, ppt, wps，txt, ceb 还可新增附件格式，如: xxx
     :return: e.g. [{"attachment_name": "附件1", "attachment_url": "http://xxx.com/P020180202506411419197.pdf"}]
     :return:
     """
-    if not isinstance(text, str):
+    if not isinstance(html, str):
         raise Exception('new version has removed response obj, please change codes or upgrade')
     attachment_list = []
 
-    base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt', 'ceb', 'rar', 'zip']
     attachment_format = '|'.join(set(base_attachment_format_list + attachment_format_list))  # 'pdf|xls|doc|ppt|wps...'
     attachment_format_patten = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
 
-    get_node_a_list = re.findall('<a .*?</a>', text, re.DOTALL | re.IGNORECASE)
-    # 替换 <!--<a href="" target="_blank" >-->xxxx<!--</a>--></em> 中的 !--，防止后续代码被注释
-    suspect_attachment_list = Selector(''.join(get_node_a_list).replace('!--', '')).xpath('//a')
+    get_node_a_list = re.findall('<a .*?</a>', html, re.DOTALL | re.IGNORECASE)
+    node_a_to_text = remove_noise_chars(''.join(get_node_a_list))
+    suspect_attachment_list = Selector(node_a_to_text).xpath('//a')
     attachment_set = set()
     for s in suspect_attachment_list:
         if not s.xpath('./@href').re_first(attachment_format_patten):
