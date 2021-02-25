@@ -4,9 +4,9 @@ from urllib.parse import urljoin
 
 from parsel.selector import Selector
 
-logger = logging.getLogger(__name__)
+from crawl_utils.patterns import ATTACHMENT_REGEXES
 
-base_attachment_format_list = ['pdf', 'xls', 'doc', 'ppt', 'wps', 'txt', 'ceb', 'rar', 'zip']
+logger = logging.getLogger(__name__)
 
 
 def remove_noise_chars(text):
@@ -28,15 +28,15 @@ def extract_attachment(html, content_url, attachment_format_list=[]):
         raise Exception('new version has removed response obj, please change codes or upgrade')
     attachment_list = []
 
-    attachment_format = '|'.join(set(base_attachment_format_list + attachment_format_list))  # 'pdf|xls|doc|ppt|wps...'
-    attachment_format_patten = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
+    attachment_format = '|'.join(set(ATTACHMENT_REGEXES + attachment_format_list))  # 'pdf|xls|doc|ppt|wps...'
+    attachment_format_pattern = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
 
     get_node_a_list = re.findall('<a .*?</a>', html, re.DOTALL | re.IGNORECASE)
     node_a_to_text = remove_noise_chars(''.join(get_node_a_list))
     suspect_attachment_list = Selector(node_a_to_text).xpath('//a')
     attachment_set = set()
     for s in suspect_attachment_list:
-        if not s.xpath('./@href').re_first(attachment_format_patten):
+        if not s.xpath('./@href').re_first(attachment_format_pattern):
             continue
         origin_file_name_from_text = s.xpath('string()').get('').strip()
         origin_file_name_from_title = s.xpath('./@title').get('') or s.xpath('./@textvalue').get('')
@@ -45,7 +45,7 @@ def extract_attachment(html, content_url, attachment_format_list=[]):
             logger.warning(f"Get a empty attachment name, origin node is ==={s.get()}===, content_url={content_url}")
 
         origin_file_name = origin_file_name_from_text or origin_file_name_from_title
-        attachment_name = attachment_format_patten.sub('', origin_file_name)
+        attachment_name = attachment_format_pattern.sub('', origin_file_name)
         attachment_url = urljoin(content_url, s.xpath('./@href').get())
         if attachment_name + attachment_url in attachment_set:
             continue

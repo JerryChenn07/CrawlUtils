@@ -5,11 +5,15 @@ import time
 
 import pymongo
 
+from crawl_utils.file import TimeExtractor
+from crawl_utils.utils import normalize_text, html2element
+
 logger = logging.getLogger(__name__)
 
 
 class SelfItemPipeline:
     def process_item(self, item, spider):
+
         for k in item.fields.keys():
             if not isinstance(item.get(k), str):
                 continue
@@ -20,6 +24,13 @@ class SelfItemPipeline:
 
         html = item.get('html', 0)
         if html:
+            pub_time = item.get('pub_time')
+            if not pub_time:
+                normal_html = normalize_text(html)
+                element = html2element(normal_html)
+                pub_time = TimeExtractor().extractor(element)
+                item['pub_time'] = pub_time
+
             item['html'] = lzma.compress(item['html'].encode('utf-8'))  # 压缩文章内容
         elif html is None:
             logger.warning("你忘记加源码了！！！快去 parse_detail 中添加 item['html'] = response.text")
@@ -48,7 +59,7 @@ class SelfItemPipeline:
         return time.strftime("%Y-%m-%d %H:%M:%S", time_array)
 
 
-class MongoPipeline(object):
+class MongoPipeline:
     def __init__(self, log_level, scheduler, host, port, username, password, db, collection, timer_tasks_collection):
         self.log_level = log_level
         self.scheduler = scheduler
@@ -75,21 +86,22 @@ class MongoPipeline(object):
         )
 
     def open_spider(self, spider):
-        # 日志等级为 DEBUG，数据不入库；如果爬虫队列使用 scrapy_redis，则为增量式抓取
-        if self.log_level != 'DEBUG':
+        # 日志等级为 DEBUG，数据不入库
+        if self.log_level == 'DEBUG':
+            logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
+            logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
+            logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
+        else:
             self.client = pymongo.MongoClient(host=self.host, port=self.port,
                                               username=self.username, password=self.password)
             self.mydb = self.client[self.db]
-            if self.scheduler != "scrapy_redis.scheduler.Scheduler":
-                self.mycollection = self.mydb[self.collection]
-                logger.info('数据库：{}，集合：{}'.format(self.db, self.collection))
-            else:
+            # 如果爬虫队列使用 scrapy_redis，则为增量抓取
+            if self.scheduler == "scrapy_redis.scheduler.Scheduler":
                 self.mycollection = self.mydb[self.timer_tasks_collection]
-                logger.info('数据库：{}，集合：{}'.format(self.db, self.timer_tasks_collection))
-        else:
-            logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
-            logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
-            logger.warning('请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
+                logger.info('增量抓取，数据库：{}，集合：{}'.format(self.db, self.timer_tasks_collection))
+            else:
+                self.mycollection = self.mydb[self.collection]
+                logger.info('单机抓取，数据库：{}，集合：{}'.format(self.db, self.collection))
 
     def process_item(self, item, spider):
         if self.log_level != 'DEBUG':
@@ -98,9 +110,8 @@ class MongoPipeline(object):
         return item
 
     def close_spider(self, spider):
-        if self.log_level != 'DEBUG':
-            self.client.close()
-        else:
+        if self.log_level == 'DEBUG':
             logger.warning('再次提醒，请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
             logger.warning('再次提醒，请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
             logger.warning('再次提醒，请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
+        self.client.close()
