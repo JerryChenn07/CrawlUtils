@@ -79,6 +79,6 @@ http://www.jiangxi.gov.cn/art/2020/8/7/art_5178_2697256.html
 
 ```
 python setup.py sdist bdist_wheel
-git tag -a v0.2.7 -m 'add attachment format & replace !-- character in order to avoid being commented & add title extract'
+git tag -a v0.3.0 -m 'add passive extraction time'
 git push origin --tags
 ```
