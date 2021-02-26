@@ -1,37 +1,40 @@
-import hashlib
 import logging
 import lzma
-import time
 
 import pymongo
 
 from crawl_utils.file import TimeExtractor
-from crawl_utils.utils import normalize_text, html2element
+from crawl_utils.utils import fingerprint, get_date, normalize_text, html2element
 
 logger = logging.getLogger(__name__)
 
 
 class SelfItemPipeline:
     def process_item(self, item, spider):
-
         for k in item.fields.keys():
             if not isinstance(item.get(k), str):
                 continue
             item[k] = item[k].strip()
         item['content'] = [c.strip() for c in item['content'] if c.strip()]
-        item['content_uuid'] = self.fingerprint(item['content_url'])
-        item['create_time'] = self.get_date()
+        item['content_uuid'] = fingerprint(item['content_url'])
+        item['create_time'] = get_date()
 
         html = item.get('html', 0)
         if html:
-            pub_time = item.get('pub_time')
-            if not pub_time:
-                normal_html = normalize_text(html)
-                element = html2element(normal_html)
-                pub_time = TimeExtractor().extractor(element)
-                item['pub_time'] = pub_time
-
             item['html'] = lzma.compress(item['html'].encode('utf-8'))  # 压缩文章内容
+
+            pub_time = item.get('pub_time')
+            if pub_time:
+                return item
+
+            normal_html = normalize_text(html)
+            element = html2element(normal_html)
+            time_extract = TimeExtractor().extractor(element)
+            if not time_extract:
+                return item
+            pub_time = 'passive' + time_extract
+            logger.info(f"被动提取到 pub_time={pub_time}，content_url={item['content_url']}")
+            item['pub_time'] = pub_time
         elif html is None:
             logger.warning("你忘记加源码了！！！快去 parse_detail 中添加 item['html'] = response.text")
         else:
@@ -39,24 +42,6 @@ class SelfItemPipeline:
             pass
 
         return item
-
-    @staticmethod
-    def fingerprint(s):
-        """
-        md5加密字符串
-        :param s: 需要加密的字符串，一般为文章url
-        :return: 加密值
-        """
-        m1 = hashlib.md5()
-        m1.update(s.strip().encode("utf-8"))
-        ret = m1.hexdigest()
-        return ret
-
-    @staticmethod
-    def get_date():
-        """获取日期"""
-        time_array = time.localtime(time.time())
-        return time.strftime("%Y-%m-%d %H:%M:%S", time_array)
 
 
 class MongoPipeline:
@@ -114,4 +99,6 @@ class MongoPipeline:
             logger.warning('再次提醒，请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
             logger.warning('再次提醒，请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
             logger.warning('再次提醒，请注意，现在处于测试阶段的配置，数据未保存，如要入库，请将 LOG 等级修改到大于 DEBUG！！！')
-        self.client.close()
+        else:
+            # debug 模式下不用关
+            self.client.close()
