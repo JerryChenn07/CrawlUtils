@@ -89,7 +89,10 @@ class MongoPipeline:
                 logger.info('单机抓取，数据库：{}，集合：{}'.format(self.db, self.collection))
 
     def process_item(self, item, spider):
-        if self.log_level != 'DEBUG':
+        if self.log_level == 'DEBUG':
+            # debug 模式不显示
+            item['html'] = ''
+        else:
             self.mycollection.insert_one(dict(item))
             # self.mycollection.update_one(dict(item), {'$set': dict(item)}, upsert=True) #适用于数据量小的
         return item
