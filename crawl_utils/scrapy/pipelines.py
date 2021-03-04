@@ -91,7 +91,7 @@ class MongoPipeline:
     def process_item(self, item, spider):
         if self.log_level == 'DEBUG':
             # debug 模式不显示
-            item['html'] = ''
+            item['html'] = 'debug 模式下不显示'
         else:
             self.mycollection.insert_one(dict(item))
             # self.mycollection.update_one(dict(item), {'$set': dict(item)}, upsert=True) #适用于数据量小的

@@ -6,7 +6,7 @@
 
 ## Install Or Update
 
-`pip install --upgrade git+https://github.com/cjr0707/CrawlUtils.git@master`
+`pip install --upgrade git+https://github.com/JerryChenn07/CrawlUtils.git@master`
 
 ## Usage
 
