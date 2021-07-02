@@ -5,6 +5,7 @@ import sys
 
 import aiohttp
 import twisted.internet
+from scrapy.exceptions import IgnoreRequest
 from twisted.internet.asyncioreactor import AsyncioSelectorReactor
 
 reactor = AsyncioSelectorReactor(asyncio.get_event_loop())
@@ -16,13 +17,31 @@ sys.modules['twisted.internet.reactor'] = reactor
 logger = logging.getLogger(__name__)
 
 
-class PriorityMiddleware(object):
+class PriorityMiddleware:
     def process_request(self, request, spider):
         retries = request.meta.get('retry_times', 0)
         request.priority -= retries
 
 
-class RandomUserAgentMiddleware(object):
+class FilterListPageDownloaderMiddleware:
+    def __init__(self, max_stop_page):
+        self.max_stop_page = max_stop_page
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(max_stop_page=crawler.settings.get('MaxStopPage'))
+
+    def process_request(self, request, spider):
+        current_page = request.meta.get('current_page')
+        max_stop_page = self.max_stop_page or 7
+
+        if isinstance(current_page, int) and current_page >= max_stop_page:
+            info = f"Maximum pages number {max_stop_page} reached, give up page"
+            logger.debug(info)
+            raise IgnoreRequest(info)
+
+
+class RandomUserAgentMiddleware:
     def __init__(self, select_pc_ua, pc_ua, phone_ua):
         self.select_pc_ua = select_pc_ua
         self.pc_ua = pc_ua
@@ -41,7 +60,7 @@ class RandomUserAgentMiddleware(object):
         request.headers["User-Agent"] = ua
 
 
-class AsyncProxyMiddleware(object):
+class AsyncProxyMiddleware:
     def __init__(self, ip_url):
         self.ip_url = ip_url
 
