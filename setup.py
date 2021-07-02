@@ -25,7 +25,7 @@ setup(
     author='cjr',
     author_email='cjr0707@qq.com',
     python_requires='>=3.6.0',
-    url='https://github.com/cjr0707/CrawlUtils',
+    url='https://github.com/JerryChenn07/CrawlUtils',
     packages=find_packages(exclude=[]),
     install_requires=REQUIRED,
     include_package_data=True,

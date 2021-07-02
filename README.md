@@ -59,6 +59,7 @@ class TestSpider(scrapy.Spider):
 ```
 DOWNLOADER_MIDDLEWARES = {
     'your_project.middlewares.YourMiddleware': 77,
+    'crawl_utils.scrapy.middlewares.FilterListPageDownloaderMiddleware': 88,
     'crawl_utils.scrapy.middlewares.RandomUserAgentMiddleware': 100,
     'crawl_utils.scrapy.middlewares.AsyncProxyMiddleware': 101,
 }
@@ -79,6 +80,6 @@ http://www.jiangxi.gov.cn/art/2020/8/7/art_5178_2697256.html
 
 ```
 python setup.py sdist bdist_wheel
-git tag -a v0.3.0 -m 'add passive extraction time'
+git tag -a v0.4.0 -m 'add passive extraction time'
 git push origin --tags
 ```
