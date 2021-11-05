@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 from parsel.selector import Selector
 
 from crawl_utils.patterns import ATTACHMENT_REGEXES
+from crawl_utils.utils import fingerprint
 
 logger = logging.getLogger(__name__)
 
@@ -28,15 +29,11 @@ def extract_attachment(html: str, content_url: str, attachment_format_list=[]) -
     :param attachment_format_list: 除了基础的附件格式 pdf, xls, doc, ppt, wps，txt, ceb 还可新增附件格式，如: xxx
     :return: e.g. [{"attachment_name": "附件1", "attachment_url": "http://xxx.com/P020180202506411419197.pdf"}]
     """
-    if not isinstance(html, str):
-        raise Exception('new version has removed response obj, please change codes or upgrade')
-    attachment_list = []
-
     attachment_format = '|'.join(set(ATTACHMENT_REGEXES + attachment_format_list))  # 'pdf|xls|doc|ppt|wps...'
     attachment_format_pattern = re.compile(f'\.({attachment_format})[a-z]?$', flags=re.IGNORECASE)
 
     suspect_attachment_list = Selector(node_a_to_text(html)).xpath('//a')
-    attachment_set = set()
+    attachment_dict = {}
     for s in suspect_attachment_list:
         if not s.xpath('./@href').re_first(attachment_format_pattern):
             continue
@@ -49,12 +46,12 @@ def extract_attachment(html: str, content_url: str, attachment_format_list=[]) -
 
         attachment_name = attachment_format_pattern.sub('', origin_file_name)
         attachment_url = urljoin(content_url, s.xpath('./@href').get())
-        if attachment_name + attachment_url in attachment_set:
+        fp = fingerprint(attachment_url)
+        if attachment_dict.get(fp) is not None and \
+                len(attachment_name) <= len(attachment_dict[fp]['attachment_name']):  # 取文件名最长的
             continue
-
-        attachment_set.add(attachment_name + attachment_url)
         file_info = {'attachment_name': attachment_name, 'attachment_url': attachment_url}
         logger.debug(f"Get attachment successful: {file_info}")
-        attachment_list.append(file_info)
+        attachment_dict[fp] = file_info
 
-    return attachment_list
+    return list(attachment_dict.values())
