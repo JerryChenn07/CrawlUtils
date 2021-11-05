@@ -76,10 +76,16 @@ ITEM_PIPELINES = {
 - ~~提取附件时存在重复的url，同时可能还会存在url虽然相同，但是名字一个可能为空或较短字符~~
 - ......
 
+<details>
+<summary>......</summary>
+
 ## Package Command
 
 ```
 python setup.py sdist bdist_wheel
-git tag -a v0.4.0 -m 'add passive extraction time'
+git tag -a v0.4.1 -m 'add passive extraction time'
 git push origin --tags
 ```
+
+展开的内容
+</details>
