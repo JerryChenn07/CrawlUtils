@@ -46,8 +46,7 @@ def extract_attachment(html: str, content_url: str, attachment_format_list=[]) -
 
         attachment_name = attachment_format_pattern.sub('', origin_file_name)
         attachment_url = urljoin(content_url, s.xpath('./@href').get())
-        fp = fingerprint(attachment_url)
-        if attachment_dict.get(fp) is not None and \
+        if attachment_dict.get(fp := fingerprint(attachment_url)) is not None and \
                 len(attachment_name) <= len(attachment_dict[fp]['attachment_name']):  # 取文件名最长的
             continue
         file_info = {'attachment_name': attachment_name, 'attachment_url': attachment_url}

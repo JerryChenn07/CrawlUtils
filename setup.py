@@ -24,7 +24,7 @@ setup(
     description='Commonly Used Crawl Utils',
     author='cjr',
     author_email='cjr0707@qq.com',
-    python_requires='>=3.6.0',
+    python_requires='>=3.8.0',
     url='https://github.com/JerryChenn07/CrawlUtils',
     packages=find_packages(exclude=[]),
     install_requires=REQUIRED,

@@ -19,12 +19,10 @@ class SelfItemPipeline:
         item['content_uuid'] = fingerprint(item['content_url'])
         item['create_time'] = get_date()
 
-        html = item.get('html', 0)
-        if html:
+        if html := item.get('html', 0):
             item['html'] = lzma.compress(item['html'].encode('utf-8'))  # 压缩文章内容
 
-            pub_time = item.get('pub_time')
-            if pub_time:
+            if item.get('pub_time'):
                 return item
 
             normal_html = normalize_text(html)
