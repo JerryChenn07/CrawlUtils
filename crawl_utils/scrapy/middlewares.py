@@ -85,6 +85,8 @@ class AsyncProxyMiddleware:
                     proxy = json_ret['proxy']
                     # logger.debug('get proxy %s', proxy)
                     return proxy
+        except asyncio.exceptions.TimeoutError:
+            logger.warning('asyncio.exceptions.TimeoutError')
         except:
             logger.error('error occurred while fetching proxy', exc_info=True)
 
@@ -94,6 +96,6 @@ class AsyncProxyMiddleware:
         # skip invalid
         if not proxy:
             logger.error('can not get proxy from proxy pool')
-            return
+            return request
 
         request.meta['proxy'] = f'http://{proxy}'

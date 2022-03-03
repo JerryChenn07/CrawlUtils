@@ -12,23 +12,21 @@ logger = logging.getLogger(__name__)
 class SelfItemPipeline:
     def process_item(self, item, spider):
         for k in item.fields.keys():
-            if not isinstance(item.get(k), str):
+            if not isinstance((l := item.get(k)), str):
                 continue
-            item[k] = item[k].strip()
-        item['content'] = [c.strip() for c in item['content'] if c.strip()]
+            item[k] = l.strip()
+        item['content'] = [d for c in item['content'] if (d := c.strip())]
         item['content_uuid'] = fingerprint(item['content_url'])
         item['create_time'] = get_date()
 
         if html := item.get('html', 0):
             item['html'] = lzma.compress(item['html'].encode('utf-8'))  # 压缩文章内容
-
             if item.get('pub_time'):
                 return item
 
             normal_html = normalize_text(html)
             element = html2element(normal_html)
-            time_extract = TimeExtractor().extractor(element)
-            if not time_extract:
+            if not (time_extract := TimeExtractor().extractor(element)):
                 return item
             pub_time = 'passive' + time_extract
             logger.info(f"被动提取到 pub_time={pub_time}，content_url={item['content_url']}")
